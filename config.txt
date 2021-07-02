@@ -1,7 +1,5 @@
 --batch-file playlist.txt
---output downloads/%(title)s_%(id)s.%(ext)s
--f "''best/mp4''"
---skip-unavailable-fragments
+--output downloads/%(id)s.%(ext)s
 --continue
 # --write-description
 # --write-info-json
